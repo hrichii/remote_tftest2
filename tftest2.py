@@ -30,7 +30,6 @@ for step in range(201):
     if step % 20 == 0:
         print(step, sess.run(W), sess.run(b))
 
-# Learns best fit is W: [0.1], b: [0.3]
-#baaaaaaaaaaaaaaaaaa
-# Close the Session when we're done.
+# Learns best fit is W: [0.1]qq, b: [0.3] #baaaaaaaaaaaaaaaaaa Close the Session
+# when we're done.
 sess.close()
